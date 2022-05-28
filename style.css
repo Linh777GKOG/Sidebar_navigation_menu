@@ -93,4 +93,17 @@ body {
 
 .navigation ul li a .icon {
   position: relative;
+  display: block;
+  min-width: 55px;
+  height: 55px;
+  line-height: 60px;
+  transition: 0.5s;
+  border-radius: 10px;
+  font-size: 1.75em;
+  color: #222;
+}
+
+.navigation ul li.active a .icon {
+  color: #fff;
+  background: var(--clr);
 }
